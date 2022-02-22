@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/13/2013 8:32:35 PM -->
+<GameData>
+
+	<Unit_FreePromotions>
+
+		<Row>
+			<UnitType>UNIT_SCOUT</UnitType>
+			<PromotionType>PROMOTION_GOODY_HUT_PICKER</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
+			<PromotionType>PROMOTION_SCOUTING_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SHOSHONE_PATHFINDER</UnitType>
+			<PromotionType>PROMOTION_SCOUTING_2</PromotionType>
+		</Row>
+
+	</Unit_FreePromotions>
+
+	<Language_en_US>
+
+		<Update>
+			<Set Text="Excellent at exploring and fearsome in combat, this Shoshone Unique Unit replaces the Scout and provides the same benefits. It also receives free scouting promotions up to Scouting II and has the same strength as Warriors" />
+			<Where Tag="TXT_KEY_UNIT_HELP_SHOSHONE_PATHFINDER" />
+		</Update>
+
+		<Update>
+			<Set Text="Excellent at exploring, this Unit is not slowed by rough terrain, but is vulnerable to attack. It possesses a promotion that allows it to choose the benefit when uncovering an ancient ruin." />
+			<Where Tag="TXT_KEY_UNIT_HELP_SCOUT" />
+		</Update>
+
+	</Language_en_US>
+
+
+</GameData>

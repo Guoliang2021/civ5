@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="6f5baa06-d988-4f14-82db-62863b989492" version="2">
+  <Properties>
+    <Name>Promotions - Ancient Ruins Choice</Name>
+    <Teaser>This mod extend the ability to choose the bonus you receive from Ancient Ruins to Scouts from all civilizations.</Teaser>
+    <Description>This mod extend the ability to choose the bonus you receive from Ancient Ruins to Scouts from all civilizations.</Description>
+    <Authors>Bloublou</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="65B4C88A3C298273B8034D77538776CE" import="0">PARC - Data.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>PARC - Data.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
